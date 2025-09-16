@@ -146,4 +146,26 @@ a {
     top: 20px;       
     left: 20px; 
 } 
-   
+@media (max-width: 768px) {
+    .menu {
+        gap: 12px;
+        right: 4%;
+    }
+
+    .menu a.btn {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu {
+        gap: 8px;     
+        right: 9%;    
+    }
+
+    .menu a.btn {
+        padding: 6px 10px;
+        font-size: 12px;  
+    }
+}
