@@ -99,6 +99,22 @@ header {
     border-radius: 5px;
     transition: background 0.3s;
 }
+.Voltar{
+    text-decoration: none;
+    padding: 6px 12px;
+    background-color: rgba(80, 63, 63, 0.6); 
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+footer {
+    background: rgba(80, 63, 63, 0.6);
+    text-align: center;      
+    margin-top: 50px;             
+    font-size: 15px;              
+    padding: 10px;
+}
+
 
 
 .video_container{
